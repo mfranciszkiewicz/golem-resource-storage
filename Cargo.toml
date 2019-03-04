@@ -1,0 +1,18 @@
+[package]
+name = "golem-proto-res"
+version = "0.1.0"
+authors = ["Marek Franciszkiewicz <marek@golem.network>"]
+
+[dependencies]
+actix = "0.7"
+bincode = "1.1"
+bit-vec = "0.5"
+futures = "0.1"
+fs2 = "0.4"
+indexmap = "1.0"
+rust-crypto = "0.2"
+serde = { version = "1.0", features = ["derive"] }
+streaming-iterator = "0.1"
+
+bit-vec-serde = { path = "bit-vec-serde" }
+merkle-tree = { path = "merkle-tree" }

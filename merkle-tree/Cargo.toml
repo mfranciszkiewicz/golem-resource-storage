@@ -1,0 +1,16 @@
+[package]
+name = "merkle-tree"
+version = "0.1.0"
+authors = ["Marek Franciszkiewicz <marek@golem.network>"]
+
+[dependencies]
+bit-vec = "0.5"
+ring = { version = "0.14", features = ["use_heap"], default-features = false }
+serde = { version = "1.0", features = ["derive"] }
+serde_bytes = "0.10"
+streaming-iterator = "0.1"
+
+bit-vec-serde = { path = "../bit-vec-serde" }
+
+[dev-dependencies]
+rand = "0.6"

@@ -1,0 +1,9 @@
+[package]
+name = "bit-vec-serde"
+version = "0.1.0"
+authors = ["Marek Franciszkiewicz <marek@golem.network>"]
+
+[dependencies]
+bit-vec = "0.5"
+serde = { version = "1.0", features = ["derive"] }
+serde_bytes = "0.10"
